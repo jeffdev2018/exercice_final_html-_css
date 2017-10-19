@@ -1,0 +1,203 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.container {
+	background-color: #FFFFFF;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom-width: 0px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+
+
+.primary_header {
+	width: 100%;
+	background-color: maroon;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	clear: left;
+	border-bottom: 2px solid maroon;
+}
+.secondary_header {
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #B3B3B3;
+	clear: left;
+}
+.container .secondary_header ul {
+	margin-top: 0%;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+	width: 100%;
+}
+.secondary_header ul li {
+	list-style: none;
+	float: left;
+	padding-left: 30px;
+	margin-right: auto;
+	font-family: "josefin-sans";
+	font-weight: normal;
+	color: #FFFFFF;
+	letter-spacing: 1px;
+	margin-left: auto;
+	text-align: center;
+	width: 16%;
+	transition: all 0.3s linear;
+}
+.home ul li {
+	
+	width: 10%;
+	float: left;
+	transition: all 0.3s linear;
+	line-height: 0px;
+	padding-top: 0px;
+}
+	
+
+.secondary_header ul li:hover {
+	color: #717070;
+	cursor: pointer;
+}
+.left_image {
+	background-color: #FFFFFF;
+	width: 40%;
+	float: left;
+	font-family: "josefin-sans";
+	color: #343434;
+	padding-top: 25px;
+	padding-bottom: 15px;
+}
+.right_image {
+	background-color: #FFFFFF;
+	width: 40%;
+	float: right;
+	font-family: "josefin-sans";
+	color: #343434;
+	padding-bottom: 15px;
+	padding-top: 25px
+}
+.slider{
+	align:center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	
+}
+.galerie{
+	border: 1 ; 
+	width: 500 ; 
+	height: 500 ;
+}
+
+.articles {
+	width: 100%;
+	float: left;
+	background-color: #F6F6F6;
+	font-family: "josefin-sans"
+}
+
+.footer {
+	background-color: #717070;
+	 
+}
+.title {
+	font-weight: bold;
+	font-style: normal;
+	font-family: 'josefin-sans';
+	text-align: center;
+	color: #FFFFFF;
+	letter-spacing: 2px;
+}
+.sources{
+	font-weight: bold;
+	font-style: normal;
+	font-family: 'josefin-sans';
+	text-align: center;
+	color:maroon;
+	letter-spacing: 2px;
+	width:25;
+	padding-top: 100px;
+}
+.imagesrouce{
+	border:1; 
+	height:25; 
+	width:100px;
+}
+.copyright{
+	text-align:center;
+	font-family: "josefin-sans";
+	color: white;
+		
+}
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Style the container */
+.container1 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}

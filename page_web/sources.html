@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">    
+        <title>Oh Timbaland</title>
+        <!-- Ici-haut est mon titre de page -->
+        <meta name="author" content="Prénom Nom" >
+        <meta name="description" content="Mettre ici un résumé descriptif du contenu de la page avec des mots-clés" >
+        <meta name="robots" content="index,follow" >
+        <link rel="shortcut icon" type="images/x-icon" href="../../favicon.ico" >    
+        <link rel="stylesheet" href="../css/style.css" >
+        <script src="../../js/main.js"></script>
+	
+		<!-- 		
+			commentaire conditionnel pour rendre compatible les nouvelles balises structurantes de HTML5 
+		-->
+		
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		
+	</head>
+
+<body>
+ <div class="container">
+ 
+  <header>
+    <div class="primary_header">
+      <h1 class="title"> OH TIMBALAND</h1>
+    </div>
+    <nav class="secondary_header" id="menu" padding="10px">
+      <ul>
+        <li class="home"><a href="../index.html"> <img src="../Images/home.png" alt="" width="20" height="20"/></a></li>
+        <li ><a href="../page_web/galerie.html">GALERIE</a></li>
+        <li><a href="../page_web/sources.html">SOURCE</a></li>
+        <li><a href="../page_web/contact.html">Contact</a></li>
+        <li onclick="myFunction()">?</li>
+        <script>
+		function myFunction() {
+    		alert("Bonjour de la part de jeff");
+		}
+		</script>
+		 
+      </ul>
+    </nav>
+    </header>
+    
+   
+	 
+	</div>
+	<div class="sources ">
+		<p >Source des informations 
+	</p><a href="https://fr.wikipedia.org/wiki/Timbaland">https://fr.wikipedia.org/wiki/Timbaland</a>
+		<p>
+			<a href="https://www.youtube.com/watch?v=VjnDQ0MQTZg&list=PLh9y8wiYpt2ra3QDd_HL1DpnkErlMmuSG"><img class="imagesrouce" src="..\Images\image1.png" ></a>
+		</p>
+		<p>
+			<a href="https://www.youtube.com/watch?v=KDKva-s_khY"><img class="imagesrouce" src="..\Images\image2.jpg"></a>
+		</p>
+		<p>
+			<a href="http://www.timbalandmusic.com/"><img src="..\Images\image3.jpg" class="imagesrouce"></a>
+		</p>
+	</div>
+	
+</body>
+<footer class="secondary_header footer">
+    <div class="copyright">&copy;2017 - <strong>J-Abdelatif</strong></div>
+  </footer>
+</html>
+
